@@ -6,11 +6,12 @@ use yii\web\Controller;
 use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
 use common\models\LoginForm;
+use yii\rest\ActiveController;
 
 /**
  * Site controller
  */
-class SiteController extends Controller
+class SiteController extends ActiveController
 {
     /**
      * @inheritdoc
@@ -60,6 +61,8 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
+        echo json_encode([1]);exit;
+
         return $this->render('index');
     }
 
