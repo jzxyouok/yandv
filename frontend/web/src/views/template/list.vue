@@ -1,6 +1,6 @@
 <template>
   <div class="app-container">
-    <el-row gutter="10">
+    <el-row>
       <el-col :span="6">
         <el-card :body-style="{ padding: '0px' }">
           <img src="../../assets/images/model1.png" class="image">

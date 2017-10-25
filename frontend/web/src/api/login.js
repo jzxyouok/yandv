@@ -30,11 +30,10 @@ export function logout() {
   });
 }
 
-export function getInfo(token) {
+export function getInfo() {
   return fetch({
     url: '/user/info',
     method: 'get',
-    params: { token }
   });
 }
 

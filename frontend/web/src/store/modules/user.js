@@ -88,8 +88,8 @@ const user = {
       return new Promise((resolve, reject) => {
         commit('SET_CODE', code);
         loginByThirdparty(state.code).then(response => {
-          commit('SET_TOKEN', response.data.token);
-          setToken(response.data.token);
+          commit('SET_TOKEN', response.data.data.token);
+          setToken(response.data.data.token);
           resolve();
         }).catch(error => {
           reject(error);

@@ -6,9 +6,9 @@ webpackJsonp([0],{
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_index_vue__ = __webpack_require__(284);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_72285797_hasScoped_true_node_modules_vue_loader_lib_selector_type_template_index_0_index_vue__ = __webpack_require__(320);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_72285797_hasScoped_true_node_modules_vue_loader_lib_selector_type_template_index_0_index_vue__ = __webpack_require__(326);
 function injectStyle (ssrContext) {
-  __webpack_require__(306)
+  __webpack_require__(310)
 }
 var normalizeComponent = __webpack_require__(8)
 /* script */
@@ -78,10 +78,10 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIIAAABWCAYAAAAD
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__static_js_Star__ = __webpack_require__(325);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__static_js_Moon__ = __webpack_require__(324);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__static_js_Meteor__ = __webpack_require__(323);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__utils_auth__ = __webpack_require__(28);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__static_js_Star__ = __webpack_require__(332);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__static_js_Moon__ = __webpack_require__(331);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__static_js_Meteor__ = __webpack_require__(330);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__utils_auth__ = __webpack_require__(18);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__utils_openWindow__ = __webpack_require__(272);
 //
 //
@@ -240,7 +240,7 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIIAAABWCAYAAAAD
 
 /***/ }),
 
-/***/ 300:
+/***/ 304:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(258)(true);
@@ -248,20 +248,20 @@ exports = module.exports = __webpack_require__(258)(true);
 
 
 // module
-exports.push([module.i, "#menu[data-v-72285797]{height:100%;overflow:hidden;position:relative}.canvas[data-v-72285797]{z-index:-1}.logo-bg[data-v-72285797]{width:800px;height:200px;position:absolute;z-index:10000;top:120px;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%);background:url(" + __webpack_require__(312) + ") no-repeat}.nav[data-v-72285797]{width:200px;height:auto;position:absolute;z-index:10000;top:400px;left:50%;margin-left:-100px}.gv[data-v-72285797]{text-decoration:none;background:url(" + __webpack_require__(281) + ") repeat 0 0;width:130px;height:43px;display:block;text-align:center;line-height:43px;cursor:pointer;float:left;margin:10px 2px;font:18px/43px microsoft yahei;color:#066197}a.gv[data-v-72285797]:hover{background:url(" + __webpack_require__(281) + ") repeat 0 -43px;color:#1d7eb8;-webkit-box-shadow:0 0 6px #1d7eb8;transition-duration:.5s}.city[data-v-72285797]{width:100%;height:170px;position:fixed;bottom:0;z-index:100;background:url(" + __webpack_require__(310) + ") no-repeat;background-size:cover}.moon[data-v-72285797]{width:100px;height:100px;position:absolute;left:100px;top:100px;background:url(" + __webpack_require__(311) + ") no-repeat;background-size:cover}.fade-out-enter-active[data-v-72285797],.fade-out-leave-active[data-v-72285797]{transition:all .5s}.fade-out-enter[data-v-72285797],.fade-out-leave-active[data-v-72285797]{opacity:0;-webkit-transform:translateX(-400px);transform:translateX(-400px)}.fade-in-enter-active[data-v-72285797],.fade-in-leave-active[data-v-72285797]{transition:all .5s}.fade-in-enter[data-v-72285797],.fade-in-leave-active[data-v-72285797]{opacity:0;-webkit-transform:translateX(400px);transform:translateX(400px)}", "", {"version":3,"sources":["/Users/mfhj-dz-001-331/work360/skeeks/frontend/web/src/views/home/index.vue"],"names":[],"mappings":"AACA,uBACE,YAAa,AACb,gBAAiB,AACjB,iBAAmB,CACpB,AACD,yBACI,UAAY,CACf,AACD,0BACE,YAAa,AACX,aAAc,AAChB,kBAAmB,AACnB,cAAe,AACf,UAAW,AACX,SAAU,AACV,mCAAoC,AAC5B,2BAA4B,AACpC,kDAA8D,CAC/D,AACD,sBACE,YAAa,AACX,YAAa,AACb,kBAAmB,AACnB,cAAe,AACf,UAAW,AACX,SAAU,AACV,kBAAoB,CACvB,AACD,qBACE,qBAAsB,AACpB,oDAAiE,AACjE,YAAa,AACb,YAAa,AACb,cAAe,AACf,kBAAmB,AACnB,iBAAkB,AAClB,eAAgB,AAChB,WAAY,AACZ,gBAA0B,AAC1B,+BAAkC,AAClC,aAAe,CAClB,AACD,4BACE,wDAAmE,AACnE,cAAc,AACd,mCAAoC,AACpC,uBAA0B,CAC3B,AACD,uBACE,WAAY,AACZ,aAAc,AACZ,eAAgB,AAChB,SAAY,AACZ,YAAa,AACb,mDAA0D,AAC1D,qBAAuB,CAC1B,AACD,uBACE,YAAa,AACb,aAAc,AACd,kBAAmB,AACnB,WAAY,AACZ,UAAW,AACX,mDAA0D,AAC1D,qBAAuB,CACxB,AACD,gFACI,kBAAmB,CACtB,AACD,yEACI,UAAW,AACX,qCAAsC,AAC9B,4BAA8B,CACzC,AACD,8EACI,kBAAmB,CACtB,AACD,uEACI,UAAW,AACX,oCAAqC,AAC7B,2BAA6B,CACxC","file":"index.vue","sourcesContent":["\n#menu[data-v-72285797] {\n  height: 100%;\n  overflow: hidden;\n  position: relative;\n}\n.canvas[data-v-72285797] {\n    z-index: -1;\n}\n.logo-bg[data-v-72285797] {\n  width: 800px;\n    height: 200px;\n  position: absolute;\n  z-index: 10000;\n  top: 120px;\n  left: 50%;\n  -webkit-transform: translateX(-50%);\n          transform: translateX(-50%);\n  background: url('../../assets/images/top_logo.png') no-repeat;\n}\n.nav[data-v-72285797] {\n  width: 200px;\n    height: auto;\n    position: absolute;\n    z-index: 10000;\n    top: 400px;\n    left: 50%;\n    margin-left: -100px;\n}\n.gv[data-v-72285797] {\n  text-decoration: none;\n    background: url('../../assets/images/nav_gv.png') repeat 0px 0px;\n    width: 130px;\n    height: 43px;\n    display: block;\n    text-align: center;\n    line-height: 43px;\n    cursor: pointer;\n    float: left;\n    margin: 10px 2px 10px 2px;\n    font: 18px/43px 'microsoft yahei';\n    color: #066197;\n}\na.gv[data-v-72285797]:hover {\n  background: url('../../assets/images/nav_gv.png') repeat 0px -43px;\n  color:#1d7eb8;\n  -webkit-box-shadow: 0 0 6px #1d7eb8;\n  transition-duration: 0.5s;\n}\n.city[data-v-72285797] {\n  width: 100%;\n  height: 170px;\n    position: fixed;\n    bottom: 0px;\n    z-index: 100;\n    background: url('../../assets/images/city.png') no-repeat;\n    background-size: cover;\n}\n.moon[data-v-72285797] {\n  width: 100px;\n  height: 100px;\n  position: absolute;\n  left: 100px;\n  top: 100px;\n  background: url('../../assets/images/moon.png') no-repeat;\n  background-size: cover;\n}\n.fade-out-enter-active[data-v-72285797], .fade-out-leave-active[data-v-72285797] {\n    transition: all .5s\n}\n.fade-out-enter[data-v-72285797], .fade-out-leave-active[data-v-72285797] {\n    opacity: 0;\n    -webkit-transform: translateX(-400px);\n            transform: translateX(-400px);\n}\n.fade-in-enter-active[data-v-72285797], .fade-in-leave-active[data-v-72285797] {\n    transition: all .5s\n}\n.fade-in-enter[data-v-72285797], .fade-in-leave-active[data-v-72285797] {\n    opacity: 0;\n    -webkit-transform: translateX(400px);\n            transform: translateX(400px);\n}\n"],"sourceRoot":""}]);
+exports.push([module.i, "#menu[data-v-72285797]{height:100%;overflow:hidden;position:relative}.canvas[data-v-72285797]{z-index:-1}.logo-bg[data-v-72285797]{width:800px;height:200px;position:absolute;z-index:10000;top:120px;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%);background:url(" + __webpack_require__(318) + ") no-repeat}.nav[data-v-72285797]{width:200px;height:auto;position:absolute;z-index:10000;top:400px;left:50%;margin-left:-100px}.gv[data-v-72285797]{text-decoration:none;background:url(" + __webpack_require__(281) + ") repeat 0 0;width:130px;height:43px;display:block;text-align:center;line-height:43px;cursor:pointer;float:left;margin:10px 2px;font:18px/43px microsoft yahei;color:#066197}a.gv[data-v-72285797]:hover{background:url(" + __webpack_require__(281) + ") repeat 0 -43px;color:#1d7eb8;-webkit-box-shadow:0 0 6px #1d7eb8;transition-duration:.5s}.city[data-v-72285797]{width:100%;height:170px;position:fixed;bottom:0;z-index:100;background:url(" + __webpack_require__(315) + ") no-repeat;background-size:cover}.moon[data-v-72285797]{width:100px;height:100px;position:absolute;left:100px;top:100px;background:url(" + __webpack_require__(317) + ") no-repeat;background-size:cover}.fade-out-enter-active[data-v-72285797],.fade-out-leave-active[data-v-72285797]{transition:all .5s}.fade-out-enter[data-v-72285797],.fade-out-leave-active[data-v-72285797]{opacity:0;-webkit-transform:translateX(-400px);transform:translateX(-400px)}.fade-in-enter-active[data-v-72285797],.fade-in-leave-active[data-v-72285797]{transition:all .5s}.fade-in-enter[data-v-72285797],.fade-in-leave-active[data-v-72285797]{opacity:0;-webkit-transform:translateX(400px);transform:translateX(400px)}", "", {"version":3,"sources":["/Users/mfhj-dz-001-331/work360/skeeks/frontend/web/src/views/home/index.vue"],"names":[],"mappings":"AACA,uBACE,YAAa,AACb,gBAAiB,AACjB,iBAAmB,CACpB,AACD,yBACI,UAAY,CACf,AACD,0BACE,YAAa,AACX,aAAc,AAChB,kBAAmB,AACnB,cAAe,AACf,UAAW,AACX,SAAU,AACV,mCAAoC,AAC5B,2BAA4B,AACpC,kDAA8D,CAC/D,AACD,sBACE,YAAa,AACX,YAAa,AACb,kBAAmB,AACnB,cAAe,AACf,UAAW,AACX,SAAU,AACV,kBAAoB,CACvB,AACD,qBACE,qBAAsB,AACpB,oDAAiE,AACjE,YAAa,AACb,YAAa,AACb,cAAe,AACf,kBAAmB,AACnB,iBAAkB,AAClB,eAAgB,AAChB,WAAY,AACZ,gBAA0B,AAC1B,+BAAkC,AAClC,aAAe,CAClB,AACD,4BACE,wDAAmE,AACnE,cAAc,AACd,mCAAoC,AACpC,uBAA0B,CAC3B,AACD,uBACE,WAAY,AACZ,aAAc,AACZ,eAAgB,AAChB,SAAY,AACZ,YAAa,AACb,mDAA0D,AAC1D,qBAAuB,CAC1B,AACD,uBACE,YAAa,AACb,aAAc,AACd,kBAAmB,AACnB,WAAY,AACZ,UAAW,AACX,mDAA0D,AAC1D,qBAAuB,CACxB,AACD,gFACI,kBAAmB,CACtB,AACD,yEACI,UAAW,AACX,qCAAsC,AAC9B,4BAA8B,CACzC,AACD,8EACI,kBAAmB,CACtB,AACD,uEACI,UAAW,AACX,oCAAqC,AAC7B,2BAA6B,CACxC","file":"index.vue","sourcesContent":["\n#menu[data-v-72285797] {\n  height: 100%;\n  overflow: hidden;\n  position: relative;\n}\n.canvas[data-v-72285797] {\n    z-index: -1;\n}\n.logo-bg[data-v-72285797] {\n  width: 800px;\n    height: 200px;\n  position: absolute;\n  z-index: 10000;\n  top: 120px;\n  left: 50%;\n  -webkit-transform: translateX(-50%);\n          transform: translateX(-50%);\n  background: url('../../assets/images/top_logo.png') no-repeat;\n}\n.nav[data-v-72285797] {\n  width: 200px;\n    height: auto;\n    position: absolute;\n    z-index: 10000;\n    top: 400px;\n    left: 50%;\n    margin-left: -100px;\n}\n.gv[data-v-72285797] {\n  text-decoration: none;\n    background: url('../../assets/images/nav_gv.png') repeat 0px 0px;\n    width: 130px;\n    height: 43px;\n    display: block;\n    text-align: center;\n    line-height: 43px;\n    cursor: pointer;\n    float: left;\n    margin: 10px 2px 10px 2px;\n    font: 18px/43px 'microsoft yahei';\n    color: #066197;\n}\na.gv[data-v-72285797]:hover {\n  background: url('../../assets/images/nav_gv.png') repeat 0px -43px;\n  color:#1d7eb8;\n  -webkit-box-shadow: 0 0 6px #1d7eb8;\n  transition-duration: 0.5s;\n}\n.city[data-v-72285797] {\n  width: 100%;\n  height: 170px;\n    position: fixed;\n    bottom: 0px;\n    z-index: 100;\n    background: url('../../assets/images/city.png') no-repeat;\n    background-size: cover;\n}\n.moon[data-v-72285797] {\n  width: 100px;\n  height: 100px;\n  position: absolute;\n  left: 100px;\n  top: 100px;\n  background: url('../../assets/images/moon.png') no-repeat;\n  background-size: cover;\n}\n.fade-out-enter-active[data-v-72285797], .fade-out-leave-active[data-v-72285797] {\n    transition: all .5s\n}\n.fade-out-enter[data-v-72285797], .fade-out-leave-active[data-v-72285797] {\n    opacity: 0;\n    -webkit-transform: translateX(-400px);\n            transform: translateX(-400px);\n}\n.fade-in-enter-active[data-v-72285797], .fade-in-leave-active[data-v-72285797] {\n    transition: all .5s\n}\n.fade-in-enter[data-v-72285797], .fade-in-leave-active[data-v-72285797] {\n    opacity: 0;\n    -webkit-transform: translateX(400px);\n            transform: translateX(400px);\n}\n"],"sourceRoot":""}]);
 
 // exports
 
 
 /***/ }),
 
-/***/ 306:
+/***/ 310:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(300);
+var content = __webpack_require__(304);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
@@ -269,28 +269,28 @@ var update = __webpack_require__(259)("94769498", content, true);
 
 /***/ }),
 
-/***/ 310:
+/***/ 315:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/img/city.a49fa22.png";
 
 /***/ }),
 
-/***/ 311:
+/***/ 317:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/img/moon.bb94236.png";
 
 /***/ }),
 
-/***/ 312:
+/***/ 318:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/img/top_logo.3a11cc5.png";
 
 /***/ }),
 
-/***/ 320:
+/***/ 326:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -370,7 +370,7 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 
 /***/ }),
 
-/***/ 323:
+/***/ 330:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -422,7 +422,7 @@ class Meteor {
 
 /***/ }),
 
-/***/ 324:
+/***/ 331:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -453,7 +453,7 @@ class Moon {
 
 /***/ }),
 
-/***/ 325:
+/***/ 332:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -517,4 +517,4 @@ class Stars {
 /***/ })
 
 });
-//# sourceMappingURL=0.f9548ec827ed788b8935.js.map
+//# sourceMappingURL=0.40930e116a2f29fdeebb.js.map

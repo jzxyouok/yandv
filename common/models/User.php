@@ -16,6 +16,15 @@ use yii\web\IdentityInterface;
  * @property string $password_reset_token
  * @property string $email
  * @property string $auth_key
+ * @property string $openid
+ * @property string $nickname
+ * @property string $sex
+ * @property string $language
+ * @property string $city
+ * @property string $province
+ * @property string $country
+ * @property string $headimgurl
+ * @property string $unionid
  * @property integer $status
  * @property integer $created_at
  * @property integer $updated_at
@@ -25,7 +34,6 @@ class User extends ActiveRecord implements IdentityInterface
 {
     const STATUS_DELETED = 0;
     const STATUS_ACTIVE = 10;
-
 
     /**
      * @inheritdoc
@@ -63,13 +71,64 @@ class User extends ActiveRecord implements IdentityInterface
     {
         return static::findOne(['id' => $id, 'status' => self::STATUS_ACTIVE]);
     }
+    
+    /**
+     * 验证微信身份    
+     */
+    public static function findIdentityByWechat($openid)
+    {
+        return static::findOne(['openid' => $openid, 'status' => self::STATUS_ACTIVE]);
+    }
 
     /**
      * @inheritdoc
      */
     public static function findIdentityByAccessToken($token, $type = null)
     {
-        throw new NotSupportedException('"findIdentityByAccessToken" is not implemented.');
+        // 如果token无效的话，
+        if(!$auth_key = static::apiTokenIsValid($token)) {
+            throw new \yii\web\UnauthorizedHttpException("token is invalid.", 1);
+        }
+
+        return static::findOne(['auth_key' => $auth_key, 'status' => self::STATUS_ACTIVE]);
+    }
+
+    public static function generateToken($auth_key)
+    {
+        $key = Yii::$app->params['user.apiTokenKey'];
+        $timestamp = time();
+        $sign = substr(md5($auth_key . '_' . $timestamp . '_' . $key), 0, 8);
+        return $auth_key . '###' . $timestamp . '###' . $sign;
+    }
+    
+    /**
+     * 校验api_token是否有效
+     */
+    public static function apiTokenIsValid($token)
+    {
+        if (empty($token)) {
+            return false;
+        }
+
+        $arr = explode('###', $token);
+        if (count($arr) != 3) {
+            return false;
+        }
+        $auth_key = $arr[0];
+        $timestamp = $arr[1];
+
+        $expire = Yii::$app->params['user.apiTokenExpire'];
+        $key = Yii::$app->params['user.apiTokenKey'];
+        $sign = substr(md5($auth_key . '_' . $timestamp . '_' . $key), 0, 8);
+
+        if ($sign !== $arr[2]) {
+            return false;
+        }
+
+        if ($timestamp + $expire < time()) {
+            return false;
+        }
+        return $auth_key;
     }
 
     /**
